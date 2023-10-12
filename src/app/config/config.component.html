@@ -1,0 +1,61 @@
+<app-sidebar></app-sidebar>
+<div class="board">
+    <div class="tasks">
+    <img src="assets\img\bell (1) 1.png" class="bell-icon">
+        
+        <h1>Configuration des Rappels de Réunions</h1>
+    </div>
+    <form method="post" class="container">
+
+        <div class="top">
+          <div class="form-group">
+            <label for="colab">Collaborateur</label>
+            <div class="dropdown">
+              <div class="box">
+                <span>ex: Alexandre Dupont</span>
+                <img src="assets\img\downward-arrow.png" alt="arrow" />
+              </div>
+              <div class="options">
+                <div class="option">
+                  <span>Alexandre Dupont</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="form-group">
+            <label for="sjt">Sujet</label>
+            <input type="text" class="form-control" name="sjt" id="sjt" placeholder="ex: Suivi mensuel" />
+          </div>
+      
+          <div class="form-group">
+            <label for="mode">Mode de planification</label>
+            <div class="dropdown">
+              <div class="box">
+                <span>Selectionnez</span>
+                <img src="assets\img\downward-arrow.png" alt="arrow" />
+              </div>
+              <div class="options">
+                <div class="option">
+                  <input type="radio" name="mode" />
+                  <span>Frequence de reccurence</span>
+                </div>
+                <div class="option">
+                  <input type="radio" name="mode" />
+                  <span>Personnalisé</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="bottom">
+          <div class="form-group">
+            <label for="commentInput" style="margin-left: 150px;">Commentaire</label>
+            <textarea class="form-control" name="comment" id="commentInput" cols="40" rows="8"></textarea>
+          </div>
+        </div>
+      
+      </form>
+      
+</div>

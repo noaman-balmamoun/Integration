@@ -1,0 +1,44 @@
+ .bell-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px; /* Adjust the value to position the bell icon properly */
+    top:6%;
+    transform: translateY(-50%);
+  }
+  img {
+    width: 500px;
+    height: 500px;
+    
+  }
+  h1{
+    margin-left: 380px;
+  }
+  .tasks {
+    width: 667px;
+height: 48px;
+margin-left: 280px;
+
+    
+    border-radius: 11px;
+    border: 2px solid #C5C5C5;
+    background-color: #F8F8F8;
+    margin-top: 50px;
+    padding: 0;
+    display: flex; /* Make the button container a flex container */
+    align-items: center; /* Align the content vertically center */
+    position: relative;
+  }
+  
+  .img {
+    width: 31.098697662353516px;
+    height: 31.1091423034668px;
+    position: absolute;
+    right: 20px; /* Adjust the value to position the image properly */
+    top: 50%;
+    transform: translateY(-50%);
+    
+  }
+  
+  
+  

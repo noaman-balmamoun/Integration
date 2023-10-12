@@ -1,0 +1,178 @@
+.cards-container {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1090px;
+    top: 188px;
+    margin-left: 35px;
+    grid-row-gap: 20px;
+    
+  }
+  
+  .card {
+    width: 350px;
+    height: 180px;
+    margin-bottom: 5px; /* Adjust this value to control the vertical spacing between cards */
+    border-radius: 7px;
+    border: 1.5px solid #32607C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .card {
+    margin: 0; /* Reset margin to remove any additional spacing */
+    padding: 0; /* Reset padding to remove any additional spacing */
+    width: 350px;
+    height: 180px; /* Adjust the height to reduce the space between cards vertically */
+    border-radius: 7px;
+    border: 1.5px solid #32607C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-bottom: -10px; /* Include padding and border in the element's total width and height */
+  }
+  
+  
+  
+  .name {
+    width: 400px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 25px !important;
+    font-weight: 50 !important;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #215974;
+    margin-left: 0px !important;
+   margin-right: 40px !important;
+
+  }
+  
+  .status {
+    width: 102px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 1px;
+    left: 100px;
+    margin-left: 35px;
+
+  }
+  
+  .dossier {
+    width: 237px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    margin-left: 35px;
+
+  }
+  
+  .progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 350px;
+  }
+
+  .progress-container::before {
+    content: ""; /* Mandatory with ::before */
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 90%;
+    z-index: -1;
+  }
+  
+  .progress {
+    background-color: var(--line-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+  }
+
+  .circle {
+    background-color: #fff;
+    color: #c44141;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--line-border-empty);
+    transition: 0.4s ease;
+  }
+  
+  .circle.active {
+    border-color: var(--line-border-fill);
+  }
+  
+
+  .entree {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 65px;
+    
+     /* Add margin to create spacing between the dossier and entree */
+    /* Set color for consistency with the card elements */
+  }
+  .progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 410px; /* Adjust the height of the progress bar */
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px; /* Add some spacing from the previous content */
+  }
+  
+  .step {
+    width: 35.14706039428711px;
+    height: 35.14706039428711px;
+   
+    
+    border: 2px solid #FF6600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    color: #FF6600;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  /* You can customize the active step with different colors or styles */
+  
+  
+  .line {
+    width: 20px;
+    height: 2px; /* Adjust the height of the line */
+    background-color: #32607C;
+    flex-direction: column;
+
+  }
+  .step.done {
+    background-color: #0c9515;
+    color: #FFFFFF;
+  }
+  
+  

@@ -1,0 +1,11 @@
+<div class="cards-container">
+    <ng-container *ngIf="displayedPeople.length > 0; else noResults">
+      <app-card
+        *ngFor="let person of displayedPeople"
+        [person]="person"
+      ></app-card>
+    </ng-container>
+    <ng-template #noResults>
+      <h4 style="margin-top: 200px;margin-left: 450px;">No results found.</h4>
+    </ng-template>
+  </div>

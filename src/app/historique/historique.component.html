@@ -1,0 +1,62 @@
+<app-sidebar></app-sidebar>
+<div class="board">
+    <div class="align-buttons px-5 mb-3">
+        <div class="buttons-container">
+          <button class="tasks">
+            <input style="color: #717171; background-color: #F8F8F8; border: none;font-size: 20px;" class="px-2" placeholder="Rechercher...">
+            <img src="assets\img\chercher 1.png" class="img" alt="search">
+          </button>
+          <img src="assets\img\bell (1) 1.png" class="bell-icon">
+          
+        </div>
+      </div>
+     
+      
+      <div><h1>Suivi des réunions</h1><button class="custom" routerLink="/Upcoming"><i class="fas fa-plus-circle" style="font-size: 30px" ></i><span class="spacer"></span>  <span class="text underline"><strong>Ajouter un suivi</strong></span></button></div>
+      
+      <div class="grid-container">
+        
+        
+        
+        <div class="main-grid">
+          
+
+         
+          <div class="center-title">
+            <h2>Réunions précédentes</h2>
+          </div>
+          
+         
+          <div *ngFor="let meeting of meetings" class="card">
+            <p class="mt-4"><strong>{{ meeting.date }}</strong></p>
+            <p class="mb-4"><strong style="color:#FF6600">Objective:</strong> {{ meeting.objective }}</p>
+          </div>
+       
+         
+        
+
+          <!-- Add more cards here -->
+        </div>
+      
+        
+      
+
+        <div class="aside-grid">
+          
+          <div class="center-title2">
+            <h2>Réunion à venir</h2>
+          </div>
+          
+          <div class="card" *ngIf="asideMeeting">
+            <p class="mt-4"><strong>{{ asideMeeting.date }}</strong></p>
+            <p class="mb-4"><strong style="color:#FF6600">Objective:</strong> {{ asideMeeting.objective }}</p>
+          </div>
+          <a class="custom-button" style="color: #FF6600;">Créer le suivi</a>
+          
+          <!-- Add more cards here -->
+        </div>
+      </div>
+      
+      
+            
+</div>

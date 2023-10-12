@@ -1,0 +1,119 @@
+
+.tasks img{
+    margin-left: 1200px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.tasks h1{
+    color: #064E71 !important;
+    margin-left: 250px;
+    margin-top: 0px;
+}
+.container *{
+    margin: 5px;
+    padding: 0;
+}
+
+.container {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container label, .dropdown span {
+    margin-left: 9px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.container .top {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+    
+}
+
+.container .formInput{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 200px;
+}
+
+.container .bottom .formInput{
+    display: flex;
+    
+    width: 200px;
+}
+
+.container input[type=text]{
+    border: 1.5px solid #7092a7;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    height: 32px;
+    width: 250px;
+}
+.container .bottom textarea{
+    border: 1.5px solid #7092a7;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.dropdown {
+    width: 230px;
+    
+}
+
+.box {
+    width: 100%;
+    border: 1.5px solid #7092a7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown .options {
+    border: 1px solid #C2C2C2;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.dropdown .options .option {
+    border-bottom: 1px solid #B6B6B6;
+    padding: 4px;
+    font-weight: 2rem;
+    cursor: pointer;
+}
+
+.dropdown .options .option:hover {
+    background-color: lightgray;
+}
+
+.dropdown .options .option input {
+    margin-right: 1%;
+}
+
+.box span {
+    color: #888787;
+}
+
+.box img {
+    max-width: 20px;
+    max-height: 26px;
+    color: #215974;
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}

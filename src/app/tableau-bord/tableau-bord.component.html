@@ -1,0 +1,44 @@
+<app-sidebar></app-sidebar>
+
+<div class="board">
+      <div class="align-buttons px-5 mb-3">
+        <div class="buttons-container">
+          <button class="tasks">
+            <input
+  [(ngModel)]="searchTerm"
+  (keyup.enter)="search()"
+  (ngModelChange)="search()"
+  style="color: black; background-color: #F8F8F8; border: none !important;; font-size: 20px;margin-left: 40px;"
+  class="px-2 input-search"
+  placeholder="Rechercher..."
+>
+
+  <img src="assets\img\chercher 1.png" class="img" alt="search">
+
+
+          </button>
+          <img src="assets\img\bell (1) 1.png" class="bell-icon">
+        </div>
+      </div>
+
+
+      <div class="top-right-buttons">
+        <button class="action-button">OnBoarding</button>
+        <button class="action-button offboarding-button">OffBoarding</button>
+        <button class="action-button tous-button">Tous</button>
+      </div>
+
+      <div class="cards-container">
+        <app-card-list [displayedPeople]="displayedPeople"></app-card-list>
+        </div>
+
+        <div class="pagination-fixed">
+          <div class="pagination">
+            <button (click)="prevPage()" [disabled]="currentPage === 1">Précédent</button>
+            <button (click)="goToPage(page)" *ngFor="let page of pageNumbers" [disabled]="currentPage === page">{{ page }}</button>
+            <button (click)="nextPage()" [disabled]="currentPage === totalPages">Suivant</button>
+          </div>
+      </div>
+     
+    </div>
+  

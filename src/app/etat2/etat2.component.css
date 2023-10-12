@@ -1,0 +1,221 @@
+.tasks {
+    width: 1200px; /* Set the width to occupy the full width of the container */
+    height: 50px;
+    border-radius: 11px;
+    border: 2px solid #C5C5C5;
+    background-color: #F8F8F8;
+    margin-top: 1px;
+    padding: 0;
+    display: flex; /* Make the button container a flex container */
+    align-items: center; /* Align the content vertically center */
+    position: relative;
+    margin-left:5px ;
+  }
+  
+  .img {
+    width: 31.098697662353516px;
+    height: 31.1091423034668px;
+    position: absolute;
+    right: 20px; /* Adjust the value to position the image properly */
+    top: 55%;
+    transform: translateY(-50%);
+    
+  }
+  
+  .bell-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px; /* Adjust the value to position the bell icon properly */
+    top:6%;
+    transform: translateY(-50%);
+  }
+  h1{
+    margin-left: 500px;
+    color:#064E71 !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+  }
+h2{
+    font-family: Inter;
+}
+
+
+  .card-container {
+    display: flex; /* Use flexbox to display the cards side by side */
+    justify-content: space-between; /* Add space between the cards */
+  }
+  
+  .small-card {
+    flex-basis: 30%; /* Set the width of the smaller card */
+    background-color: #D4EFFF;
+    padding: 20px;
+    
+    width: 499px;
+height: 291px;
+margin-top: 120px;
+left: 285px;
+border-radius: 25px;
+border: 4px solid #32607C; /* Set border color here */
+margin-left: 45px;
+
+  }
+  .name{
+    color: #FF6600;
+  }
+  
+  .large-card {
+    display: flex;
+    flex-grow: 1;
+    background-color: #EDF8FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 90px;
+    
+    width: 20px !important; /* Set width using !important */
+    height: 605px !important; /* Set height using !important */
+    border: 4px solid #32607C;
+    
+  }
+  
+  
+  .progress-bar .img1 {
+    position: absolute;
+      width: 40px; /* Adjust the width as needed */
+      height: 40px;
+      margin-left: 2px;
+      margin-bottom: 540px;
+      margin-top: 10px; /* Adjust the height as needed */
+   
+  }
+  .progress-bar .img2 {
+    position: absolute;
+      width: 40px; /* Adjust the width as needed */
+      height: 40px;
+      margin-left: 2px;
+      margin-bottom: 440px;
+      margin-top: 10px; /* Adjust the height as needed */
+   
+  }
+  .progress-bar .img3 {
+    position: absolute;
+      width: 40px; /* Adjust the width as needed */
+      height: 40px;
+      margin-left: 2px;
+      margin-bottom: 230px;
+      margin-top: 10px; /* Adjust the height as needed */
+   
+  }
+  .progress-bar .img4 {
+    position: absolute;
+      width: 40px; /* Adjust the width as needed */
+      height: 40px;
+      margin-left: 2px;
+      margin-bottom: 20px;
+      margin-top: 100px; /* Adjust the height as needed */
+   
+  }
+  .progress-bar .img5 {
+    position: absolute;
+      width: 40px; /* Adjust the width as needed */
+      height: 40px;
+      margin-left: 2px;
+      margin-bottom: 20px;
+      margin-top: 350px; /* Adjust the height as needed */
+   
+  }
+  .progress-bar .img6 {
+    position: absolute;
+      width: 40px; /* Adjust the width as needed */
+      height: 40px;
+      margin-left: 2px;
+      margin-bottom: 20px;
+      margin-top: 550px; /* Adjust the height as needed */
+   
+  }
+  
+  .step {
+    width: 46px;
+    height: 46px;
+    border: 2px solid #FF6600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4EFFF;
+    font-weight: bold;
+    color: #32607C;
+    font-size: 14px;
+    position: relative;
+  }/*
+  
+  /* You can customize the active step with different colors or styles */
+  .step.active {
+    background-color: #FF6600;
+    color: #FFFFFF;
+  }
+  
+  
+  .step.done {
+    background-color: #0c9515;
+    color: #FFFFFF;
+  }
+
+
+
+  .creation {
+    color: #215974 !important;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .line-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0px;
+    height: 30px;
+
+  }
+  
+  .check-icon {
+     
+      display: inline-block;
+      margin-top: 0px;
+      margin-left: 50px; /* Adjust spacing between the icon and the text */
+      font-size: 40px; /* Adjust the font size as needed */
+      color:#31A409; /* Change the color to green */
+    
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-section p {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-size:medium;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,232 @@
+.tasks {
+    width: 1200px; /* Set the width to occupy the full width of the container */
+    height: 60px;
+    border-radius: 11px;
+    border: 2px solid #C5C5C5;
+    background-color: #F8F8F8;
+    margin-top: 10px;
+    padding: 0;
+    display: flex; /* Make the button container a flex container */
+    align-items: center; /* Align the content vertically center */
+    position: relative;
+    margin-left:5px ;
+  }
+  
+  .img {
+    width: 31.098697662353516px;
+    height: 31.1091423034668px;
+    position: absolute;
+    right: 20px; /* Adjust the value to position the image properly */
+    top: 59%;
+    bottom: 20%;
+    transform: translateY(-50%);
+    
+  }
+  
+  .bell-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 30px; /* Adjust the value to position the bell icon properly */
+    top:6%;
+    transform: translateY(-50%);
+  }
+
+
+  /* Styling for the main grid */
+/* Styling for the container div */
+.grid-container {
+  display: flex;
+}
+
+/* Styling for the main grid */
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 280px); /* You can adjust the number of columns here */
+
+  grid-auto-rows: 50px;
+  grid-gap: 30px;
+  width: 765px;
+  height: 560px;
+  border-radius: 6px;
+  background-color:#F1FAFF;
+  border-color: #215974;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border:1px solid #215974;
+}
+
+/* Styling for the cards inside the main grid */
+/* Styling for the cards inside the main grid */
+.main-grid .card {
+  position: relative; /* Add position: relative to enable positioning inside the card */
+
+  display: flex;
+  flex-direction: column; /* Change to flex-direction: column to stack the content vertically */
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-top: 100px;
+  margin-left: 70px;
+  width: 300px;
+  height: 70px; /* Increase the height to accommodate the larger date */
+  border: 1px solid #32607C;
+}
+
+.main-grid .card p {
+  margin: 2px 0; /* Reduce the top and bottom margin to minimize the space between the elements */
+}
+
+/* Styling for the date */
+.main-grid .card strong {
+  font-size: 20px; /* Increase the font size for the date */
+}
+
+/* Styling for the objective */
+.main-grid .card strong[style="color:#FF6600"] {
+  font-size: 18px; /* Adjust the font size for the objective */
+  margin-top: 5px; /* Add a small margin to separate the date and the objective */
+}
+.aside-grid .card p {
+  margin: 2px 0; /* Reduce the top and bottom margin to minimize the space between the elements */
+}
+
+/* Styling for the date */
+.aside-grid .card strong {
+  font-size: 20px; /* Increase the font size for the date */
+}
+
+/* Styling for the objective */
+.aside-grid .card strong[style="color:#FF6600"] {
+  font-size: 18px; /* Adjust the font size for the objective */
+  margin-top: 5px; /* Add a small margin to separate the date and the objective */
+}
+
+
+/* Styling for the aside grid */
+.aside-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 298px);
+  grid-auto-rows: 87px;
+  grid-gap: 10px;
+  width: 450px;
+  height: 231px;
+  margin-left: 40px; /* Add spacing between the main grid and the aside grid */
+  border-radius: 6px;
+  background-color:#D4EFFF;
+
+  margin-top: 180px;
+  border:4px solid #215974;
+  border-radius: 25px;
+}
+
+/* Styling for the cards inside the aside grid */
+.aside-grid .card {
+  position: relative; /* Add position: relative to enable positioning inside the card */
+
+  display: flex;
+  flex-direction: column; /* Change to flex-direction: column to stack the content vertically */
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 300px;
+  height: 100px; /* Increase the height to accommodate the larger date */
+  border: 1px solid #32607C;
+}
+
+
+  h1{
+    color: #064E71 !important;
+    margin-left: 440px;
+  }
+
+ /* Styling for the grid title */
+
+
+
+.top-right-buttons {
+  position: absolute;
+  top: 90px; /* Adjust the distance from the top of the page */
+  right: 140px; /* Adjust the distance from the right of the page */
+  display: flex;
+  width: 150px;
+  height: 66px;
+  top: 94px;
+  left: 1228px;
+  border: 1px solid #FF6600;
+  border-radius: 13px;
+  background-color: white;
+  
+  
+}
+.cards .first{
+  margin-left: 350px;
+  margin-top: 20px;
+  position:absolute;
+  color: #215974 !important;
+  font: Inter;
+  box-shadow: none;
+}
+
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+  margin-bottom: 20px; /* Add margin if desired */
+  position:absolute;
+  margin-left: 230px;
+  color: #215974 !important;
+}
+.center-title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+  margin-bottom: 40px; /* Add margin if desired */
+  position:absolute;
+  margin-left: 120px;
+  color: #215974 !important;
+}
+.custom-button{
+  margin-left: 170px;
+  margin-top: 80px;
+}
+.custom{
+  width: 200px;
+height: 66px;
+
+border-radius: 13px;
+border: 2px solid #FF6600;
+
+  position: absolute;
+  margin-left: 1100px;
+  margin-top:10px;
+  color: #FF6600;
+  background-color: white;
+  
+}
+.spacer {
+  display: inline-block;
+  width: 10px; /* Adjust the width to control the spacing */
+}
+.icon {
+  font-size: 48px; /* Adjust the font size for the icon */
+  vertical-align: middle; 
+  /* Align the icon vertically with text */
+}
+.text {
+  font-size: 20px; /* Adjust the font size for the text */
+  font-family: Roboto !important;
+}
+.underline {
+  text-decoration: underline; /* Add underline style */
+}
+
+

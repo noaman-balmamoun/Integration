@@ -1,0 +1,43 @@
+/* Add these styles for the grid containers */
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-grid-container, .aside-grid-container {
+    width: 280px;
+    margin-bottom: 40px; /* Adjust the margin to create spacing between the grids */
+  }
+  
+  /* Add these styles for the grid titles */
+  .grid-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the styling for the main grid */
+  .main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 50px;
+    grid-gap: 30px;
+    background-color: #F1FAFF;
+    border-radius: 6px;
+    border: 1px solid #215974;
+    padding: 10px;
+  }
+  
+  /* Adjust the styling for the aside grid */
+  .aside-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-auto-rows: 87px;
+    grid-gap: 10px;
+    background-color: #D4EFFF;
+    border-radius: 25px;
+    border: 4px solid #215974;
+    padding: 10px;
+  }
+  
